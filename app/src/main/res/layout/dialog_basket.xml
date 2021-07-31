@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="ScrollViewCount">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/ivDialogImageFood"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="20sp"
+            android:layout_marginTop="20sp"
+            android:layout_marginEnd="20sp"
+            android:src="@drawable/img_dialog"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints" />
+
+        <ImageView
+            android:id="@+id/ivDialogAheart"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="24dp"
+            android:src="@drawable/ic_dialog_ahart"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tvDialogNameFood"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="17dp"
+            android:layout_marginTop="36dp"
+            android:layout_marginEnd="16dp"
+            android:fontFamily="@font/roboto"
+            android:text="@string/DialogNameFood"
+            android:textColor="@color/black"
+            android:textSize="19sp"
+            app:layout_constraintTop_toBottomOf="@id/ivDialogImageFood" />
+
+        <TextView
+            android:id="@+id/tvQuantityWeight"
+            android:layout_width="70dp"
+            android:layout_height="20sp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/roboto"
+            android:text="@string/DialogQuantityWeight"
+            android:textColor="@color/black"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tvDialogNameFood" />
+
+        <TextView
+            android:id="@+id/tvWeight"
+            android:layout_width="wrap_content"
+            android:layout_height="20sp"
+            android:layout_marginStart="17dp"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/roboto"
+            android:text="@string/DialogKcal"
+            android:textColor="@color/black"
+            app:layout_constraintStart_toEndOf="@id/tvQuantityWeight"
+            app:layout_constraintTop_toBottomOf="@id/tvDialogNameFood" />
+
+        <TextView
+            android:id="@+id/tvDialogDescriptionOfTheDish"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="36dp"
+            android:layout_marginEnd="20dp"
+            android:text="@string/DialogDescriptionOfTheDish"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tvQuantityWeight" />
+
+        <TextView
+            android:id="@+id/tvQuantityCounter"
+            android:background="@drawable/fon_gialogcounter"
+            app:layout_constraintTop_toBottomOf="@id/tvDialogDescriptionOfTheDish"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="33dp"
+            android:text="@string/DialogQuantityCounter"
+            android:gravity="center"
+            android:layout_marginTop="36dp"
+            android:textColor="@color/black"
+            android:layout_width="136dp"
+            android:layout_height="48dp"/>
+
+        <TextView
+            android:id="@+id/tvPriceCounter"
+            app:layout_constraintTop_toBottomOf="@id/tvDialogDescriptionOfTheDish"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:background="@color/colorbegin"
+            android:text="@string/DialogPriceCounter"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:layout_marginEnd="33dp"
+            android:layout_marginTop="36dp"
+            android:layout_width="136dp"
+            android:layout_height="48dp"/>
+
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

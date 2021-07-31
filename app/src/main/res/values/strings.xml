@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Азиатская кухня</string>
+    <string name="AuthorizationString">Авторизация</string>
+    <string name="TelefonString">Укажите свой телефоный номер, что бы сделать заказ</string>
+    <string name="BeginButtonString">НАЧАТЬ</string>
+    <string name="SkipButtonString">Пропустить</string>
+    <string name="TermsOfUseString">Авторизуясь я соглашаюсь с <u>условиями использования</u> </string>
+    <string name="DialogQuantityWeight">1 шт. / 300 г.</string>
+    <string name="_8_800_2222_600">+8 800 2222 600</string>
+    <string name="DialogNameFood">Том Ям суп с морепродуктами <br> мидии и креветки</br> </string>
+    <string name="DialogKcal">312 ккал</string>
+    <string name="DialogDescriptionOfTheDish">Бульон из пряного говяжьего мясного супа с<br> кокосовым молоком, грибами, томатами,</br>
+                                             <br>зеленью. Подается с добавками на выбор,</br>
+                                             <br>отварным белым рисом или рисовой</br>
+                                             <br>вермишелью на выбор</br></string>
+    <string name="DialogPriceCounter">235 ₽</string>
+    <string name="DialogQuantityCounter">+     1     -</string>
+   <string name="SWIFTBOOK">SWIFTBOOK</string>
+
+</resources>
